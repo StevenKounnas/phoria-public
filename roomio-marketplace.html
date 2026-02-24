@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en-US" class="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <title>Roomio - We Get Around Network MarketPlace</title>    
+        
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/manifest.json">
+    <link rel="mask-icon" href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Bootstrap -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> 
+
+    <!--Web Fonts-->
+    <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Oswald:300,400,600,700' rel='stylesheet' type='text/css'>
+        
+    <!--Custom CSS-->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/css/main.css?ver=1590596843" rel="stylesheet">
+    
+    <!-- Slick -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+    
+    <style>
+        .wp3d-sold:before { background-image: url('https://marketplace.wganforum.com/wp-content/uploads/2020/07/FORUM-MEMBERS-TRANS-300-DPI-06.png'); } 
+        .wp3d-pending:before { background-image: url('https://marketplace.wganforum.com/wp-content/uploads/2020/06/STANDARD-MEMBERS-TRANS-300.png'); } 
+        .wp3d-custom-status:before { background-image: url('https://marketplace.wganforum.com/wp-content/uploads/2020/06/PREMIUM-MEMBERS-TRANS-300.png'); } 
+        #wp3d-property-tabs ul.propnav > li, #wp3d-property-tabs ul.propnav > li { text-decoration: none; background-color: #eeeeee; } 
+        .wp3d-start h1 span {display:none;} 
+        #wp3d-intro a {background-color: rgba(0,0,0,0);}
+    </style>
+
+    <!-- jQuery -->
+    <script type='text/javascript' src='https://marketplace.wganforum.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+    <script type='text/javascript' src='https://marketplace.wganforum.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+        
+</head>
+
+<body class="wp3d-skinned-crosby model-roomio">
+      
+    <div class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="70">
+        <div class="container">
+            <img src="https://marketplace.wganforum.com/wp-content/uploads/2022/09/WGAN_Large-and-Small-logo_text-for-WP_300x120px_JP_22-Sep-22_R1.png" alt="We Get Around Network MarketPlace" class="pull-left">
+                                      
+            <div class="share pull-right">
+                <a href="#" id="share" title="SHARE THIS PAGE"> 
+                    <span class="fa-stack">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-share fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+                                        
+                <a href="#contact" id="email-form" title="CONTACT">
+                    <span class="fa-stack">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+                                                            
+                <a href="#" id="agents" title="CONTACT">
+                    <span class="fa-stack">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    
+    <div id="page-wrap">
+        
+        <div class="wp3d-embed-wrap" itemscope itemtype="http://schema.org/MediaObject">
+            
+            <div id="wp3d-intro" class="is-loading" style="background-image: url('https://roomio.io/wp-content/uploads/2025/09/ae71cd2c882ebac90b89fc069aac88d6e0702b12-818x1024.png');">
+                        
+                <a href="#" class="no-iframe default-cursor">
+                    <div class="wp3d-start">
+                        <h1><span>Roomio</span></h1>
+                    </div>
+                </a>            
+                            
+            </div> <!-- /wp3d-intro -->
+            
+                
+        </div> <!-- /wp3d-embed-wrap -->       
+    
+    <!--Content Section-->
+    
+    <section id="content">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-10 col-md-offset-1 content-wrapper">
+
+                    <div class="property-content empty-summary centered-summary">
+                    
+                        <h2>Roomio: The Best Floor Plan App Built Specifically for Real Estate Professionals</h2>
+                                            
+                    </div><!-- end property-content -->
+                    
+
+                    <div id="property-tabs" role="navigation">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#tab-0" aria-controls="tab-0" role="tab" data-toggle="tab">About</a></li>
+                            <li role="presentation"><a href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab">WGAN Forum</a></li>
+                            <li role="presentation"><a href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab">WGAN-TV Training U</a></li>
+                            <li role="presentation"><a href="#tab-3" aria-controls="tab-3" role="tab" data-toggle="tab">WGAN Membership Benefit</a></li>
+                        </ul>
+                        
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                                            
+                            <div role="tabpanel" class="tab-pane active" id="tab-0">
+                                
+                                <p>Roomio is the floor plan app that real estate agents and photographers have been waiting for. Built exclusively for real estate, Roomio uses your iPhone's LiDAR camera to capture accurate property measurements in under 5 minutes—then delivers professional schematic floor plans in 12-24 hours for just AUD$15.</p>
+
+                                <p>Unlike generic 3D scanning apps, Roomio is purpose-built with real estate in mind. You get the largest range of custom templates on the market, professional formatting that listing platforms accept, custom branding included free (competitors charge extra), and detailed property reports with AI descriptions—all at a fixed, transparent price with no hidden costs.</p>
+
+                                <p>Roomio's scanning technology allows for the largest single scans on the market, with professional-grade accuracy within 1-2cm. Capture entire properties—including all floors, garages, and outdoor areas—in one seamless session. Add your logo, choose your template style, submit your order, and receive professional deliverables ready for listings, appraisals, client presentations, or renovation planning.</p>
+
+                                <p>Stop overpaying for floor plans. Start winning more business with Roomio.</p>
+
+                                <ul>
+                                    <li><strong><a href="https://roomio.io/" target="_blank">Roomio website</a></strong></li>
+                                    <li><strong>AUD$15 Floor Plans</strong> – Fixed price with no contracts or hidden costs</li>
+                                    <li><strong>12-24 Hour Delivery</strong> – Express 8-hour option available for 2D floor plans</li>
+                                    <li><strong>Custom Branding Included Free</strong> – Add your logo and custom titles at no extra charge</li>
+                                    <li><strong>Largest Range of Templates</strong> – 2D schematic, 3D textured, and site plans</li>
+                                    <li><strong>LiDAR Accuracy</strong> – Professional-grade precision within 1-2cm</li>
+                                    <li><strong>Fastest Scanning</strong> – Capture a 4-bedroom property in less than 5 minutes</li>
+                                    <li><strong>Largest Single Scans</strong> – Advanced scanning technology handles any residential property size</li>
+                                    <li><strong>Detailed Property Reports</strong> – AI-powered descriptions, room dimensions, climate control, features</li>
+                                    <li><strong>iPhone & iPad Pro Compatible</strong> – Works on iPhone 12 Pro or later (LiDAR-enabled devices)</li>
+                                    <li><strong>All-Inclusive Deliverables</strong> – PNG, JPG, SVG files + site plan (if exterior scanned)</li>
+                                </ul>
+                                
+                            </div><!-- /tab-pane -->
+                    
+                            <div role="tabpanel" class="tab-pane" id="tab-1">
+                                <ul>
+                                    <li><strong>WGAN Forum</strong> discussions tagged: <strong><a href="https://forum.we-get-around.com/tag/roomio" target="_blank">Roomio</a></strong></li>
+                                </ul>
+                            </div><!-- /tab-pane -->
+                    
+                            <div role="tabpanel" class="tab-pane" id="tab-2">
+                                <p><strong>Free WGAN-TV Training U Courses</strong></p>
+                                <ul>
+                                    <li><em>Roomio training courses coming soon!</em></li>
+                                </ul>
+                            </div><!-- /tab-pane -->
+                    
+                            <div role="tabpanel" class="tab-pane" id="tab-3">
+                                <ul>
+                                    <li><strong>Special offer for WGAN members:</strong> Download the Roomio app and get started with professional floor plans for just AUD$15.</li>
+                                    <li>No setup fees, no subscriptions—only pay when you need a floor plan.</li>
+                                    <li><a href="https://roomio.io/" target="_blank" rel="nofollow noopener"><strong>Visit Roomio website to download the app</strong></a></li>
+                                </ul>
+                            </div><!-- /tab-pane -->
+                    
+                        </div><!-- end tab-content -->
+                                               
+                    
+                    </div><!-- end #property-tabs -->
+                  
+           </div><!-- end content wrapper -->
+
+            </div><!-- end row -->
+                 
+        </div><!-- end container --> 
+            
+    </section>
+    
+    <div id="wp3d-video-container" class="container">
+        <div id="wp3d-video">
+            <div class="embed-container embed-youtube">
+                <!-- Note: Replace with actual Roomio demo video when available -->
+                <iframe src="https://www.youtube.com/embed/PLACEHOLDER" frameborder="0" allowfullscreen></iframe>
+            </div>        
+        </div>
+    </div>
+  
+    <!-- Map Section - Update coordinates for Roomio office location if needed -->
+    <section id="wp3d-map-wrap">
+        <div id="wp3d-single-map" data-map-zoom="10" data-map-type="ROADMAP" data-latlng="-37.8136276,144.9630576" data-marker-type="stock"></div>
+    </section>  
+
+    <section id="wp3d-zoom-gallery" class="gallery-loading">
+        <div class="wp3d-zoom-slider">
+            <!-- Note: Replace with actual Roomio marketing images -->
+            <div>
+                <a href="https://roomio.io/wp-content/uploads/2025/09/ae71cd2c882ebac90b89fc069aac88d6e0702b12-scaled.png">
+                    <img data-lazy="https://roomio.io/wp-content/uploads/2025/09/ae71cd2c882ebac90b89fc069aac88d6e0702b12-scaled.png" alt="Roomio App">
+                </a>
+                <div class="slick-counter"></div>
+            </div>
+            <div>
+                <a href="https://roomio.io/wp-content/uploads/2025/09/roomio-logo.png">
+                    <img data-lazy="https://roomio.io/wp-content/uploads/2025/09/roomio-logo.png" alt="Roomio Logo">
+                </a>
+                <div class="slick-counter"></div>
+            </div>
+            <!-- Add more Roomio product screenshots/banners as available -->
+        </div>
+        <div class="slick-loading"><i class="fa fa-spinner fa-spin fa-3x"></i></div>
+    </section>
+
+    <section id="agents-section">
+        <div class="container">
+            <ul class="agents-list clearfix">
+                <li class="vcard agent" itemscope itemtype="http://schema.org/Person">
+                    <meta itemprop="image" content="https://marketplace.wganforum.com/wp-content/uploads/2020/05/Screen-Shot-2021-05-26-at-5.40.24-PM-300x300.png"></meta>
+                    <div class="agent-photo">
+                        <div class="agent-img" style="background-image: url('https://marketplace.wganforum.com/wp-content/uploads/2020/05/Screen-Shot-2021-05-26-at-5.40.24-PM-300x300.png')">
+                            <span class="sr-only">Dan Smigrod</span>
+                        </div>
+                    </div>
+                    <div class="agent-content mp-contact-info">
+                        <span class="fn" title="Dan Smigrod" itemprop="name">Dan Smigrod</span>                        
+                        <span class="sub-heading">We Get Around Network Forum Founder</span>                                
+                        <div class="agent-additional-info">How may I help you?</div>
+                        <ul class="agent-meta fa-ul">
+                            <li class="email"><i class="fa-li fa fa-envelope"></i><a href="mailto:DanSmigrod@WeGetAroundNetwork.com" itemprop="email">DanSmigrod@WeGetAroundNetwork.com</a></li>
+                            <li class="tel"><i class="fa-li fa fa-phone"></i><a href="tel:4043037311" class="value" itemprop="telephone">(404) 303-7311</a></li>
+                        </ul>
+                        <ul class="agent-social fa-ul">
+                            <li class="globe">
+                                <a href="https://card.get-card.com/we-get-around/" target="_blank" class="url" itemprop="url">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                        <i class="fa fa-globe fa-stack-1x globe"></i>
+                                    </span>                     
+                                </a>
+                            </li>
+                            <li class="globe">
+                                <a href="https://calendly.com/dansmigrod/" target="_blank" class="url" itemprop="url">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                        <i class="fa fa-globe fa-stack-1x globe"></i>
+                                    </span>                     
+                                </a>
+                            </li>
+                            <li class="linkedin">
+                                <a href="https://www.linkedin.com/in/dansmigrod" target="_blank" class="url" itemprop="url">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                        <i class="fa fa-linkedin fa-stack-1x linkedin"></i>
+                                    </span>                     
+                                </a>
+                            </li>
+                            <li class="twitter">
+                                <a href="https://twitter.com/DanSmigrod" target="_blank" class="url" itemprop="url">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                        <i class="fa fa-twitter fa-stack-1x twitter"></i>
+                                    </span>                     
+                                </a>
+                            </li>
+                            <li class="youtube">
+                                <a href="https://www.youtube.com/channel/UCyv_3Unt0jF4OZE550wXB1Q" target="_blank" class="url" itemprop="url">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                        <i class="fa fa-youtube fa-stack-1x youtube"></i>
+                                    </span>                     
+                                </a>
+                            </li>
+                            <li class="facebook">
+                                <a href="https://www.facebook.com/WeGetAroundNetwork/" target="_blank" class="url" itemprop="url">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                        <i class="fa fa-facebook fa-stack-1x facebook"></i>
+                                    </span>                     
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact">
+            <h2>CONTACT</h2>
+            <h3>Please use the form below to reach out.</h3>
+        </div>
+    
+        <div class="container contact-form">
+            <form id="contact-form" action="#redirect-to" method="post">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <input name="contactName" type="text" id="contactName" class="" value="" placeholder="ENTER YOUR NAME" >
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <input name="email" type="text" id="email" class="" value="" placeholder="ENTER YOUR EMAIL" >
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <input name="phone" type="text" id="phone" value="" placeholder="ENTER YOUR PHONE" >
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <textarea name="comments" id="commentsText" rows="8" placeholder="MESSAGE"></textarea>
+                        <input style="display: none;" type="text" name="antispam" />
+                    </div>
+                </div>
+                
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <div class="checkbox">
+                        <label><input type="checkbox" name="captureContent" id="captureContent" value="yes"> I consent to this submitted data being collected and stored.</label>
+                    </div>                    
+                </div> 
+                                
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <input class="btn" type="submit" value="Send Message" id="sendmsg">
+                    </div>
+                </div>
+                <input type="hidden" name="submitted" id="submitted" value="true" />
+            </form>
+        </div>
+    </section>              
+                
+    <section id="footer" class="clearfix">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
+            <div class="wp3d-share-icons-wrap">
+                <h3>SHARE THIS PAGE</h3>
+                <ul class="wp3d-share-icons">
+                    <li class="facebook">
+                        <a href="#" target="_blank" title="facebook" aria-label="facebook">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x facebook"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="twitter">
+                        <a href="#" target="_blank" title="twitter" aria-label="twitter">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x twitter"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="linkedin">
+                        <a href="#" target="_blank" title="linkedin" aria-label="linkedin">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x linkedin"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="pinterest">
+                        <a href="#" target="_blank" title="pinterest" aria-label="pinterest">
+                            <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-pinterest fa-stack-1x pinterest"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="disclaimer" class="clearfix">
+        <div class="container">    
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                We Get Around Network Marketplace    
+            </div>
+        </div>
+    </section>
+    
+</div><!-- end page wrap -->
+    
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.0/featherlight.min.js"></script>
+    <script src="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/js/jquery.easing.1.3.js"></script>
+    <script src="https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/skins/crosby/js/custom.js?ver=1590596843"></script>
+    <script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyA_fFwpapOvgC5o67JgXmzR6y3XaRbhkF0&#038;ver=3' id='WP3D_Models-google-maps-js'></script>
+    <script type='text/javascript' src='https://marketplace.wganforum.com/wp-content/plugins/wp3d-models/assets/js/min/maps-single.min.js?ver=1.0.0' id='WP3D_Models-google-maps-models-single-js'></script>
+
+</body>
+
+</html>
